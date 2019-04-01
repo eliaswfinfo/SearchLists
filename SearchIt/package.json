@@ -1,0 +1,17 @@
+{
+ "name": "SearchIt",
+ "version": "1.0.0",
+ "license": "MIT",
+ "description": "An auto search app",
+ "main": "main.js",
+ "author": "ewf",
+ "devDependencies": {
+  "electron-packager": "latest"
+ },
+ "build": {
+    "extraResources": "./scripts"
+  },
+ "dependencies": {
+   "start" : "electron ."
+ }
+}
